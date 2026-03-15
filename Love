@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For My Love ❤️</title>
+
+<style>
+body{
+    background: linear-gradient(pink, #ffd6e7);
+    text-align:center;
+    font-family: "Comic Sans MS", cursive;
+}
+
+h1{
+    color:#ff2e7a;
+    font-size:40px;
+}
+
+p{
+    font-size:20px;
+    color:#444;
+}
+
+img{
+    width:200px;
+    border-radius:20px;
+    margin:10px;
+    box-shadow:0 0 15px pink;
+}
+
+.hearts{
+    font-size:30px;
+    animation: float 3s infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-10px);}
+    100%{transform:translateY(0);}
+}
+
+button{
+    background:#ff4da6;
+    border:none;
+    padding:15px 25px;
+    color:white;
+    font-size:18px;
+    border-radius:25px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>💖 For My Sweet Boyfriend 💖</h1>
+
+<div class="hearts">💗 💕 💖 💘 💞</div>
+
+<p>You are the cutest person in my life.  
+Every moment with you is special.  
+I love you forever! 💞</p>
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+
+<br><br>
+
+<button onclick="playMusic()">Play Our Song 🎶</button>
+
+<audio id="song">
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playMusic(){
+document.getElementById("song").play();
+}
+</script>
+
+<br><br>
+
+<p>Made with love ❤️</p>
+
+</body>
+</html>
+
